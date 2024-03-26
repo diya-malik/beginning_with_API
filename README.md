@@ -45,15 +45,13 @@ Takes the user_id from the url (Path Parameter) and the extra_info (Query Parame
 
 c. Creates POST request
 Takes the user data information from the request body and the functions returns the response with the data
-` @app.route('/create-user',methods=['POST','PUT'])
-        def create_user():
-            if request.method=='POST':
-                data = request.get_json()
-            return jsonify(data), 201`
+
+```@app.route("/create-user",methods=["POST","PUT"])
+    def create_user():
+        if request.method=="POST":
+            data = request.get_json()
+        return jsonify(data), 201
+```
 
 6. Run the python application - `python main.py`
    and enter the URL according to the request required mentioned in the decorators.
-
-```
-
-```
