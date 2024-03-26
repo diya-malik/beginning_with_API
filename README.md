@@ -11,9 +11,10 @@ Flask - is a micro web framework for Python. It is used in web development and A
 
 3. Basic Initialization
 
-````from flask import Flask, request, jsonify
-app = Flask(__name__)
-if __name__ == '__main__': app.run()```
+   ```from flask import Flask, request, jsonify
+   app = Flask(__name__)
+   if __name__ == '__main__': app.run()
+   ```
 
 main is the entry point of our application
 
@@ -52,4 +53,7 @@ Takes the user data information from the request body and the functions returns 
 
 6. Run the python application - `python main.py`
    and enter the URL according to the request required mentioned in the decorators.
-````
+
+```
+
+```
